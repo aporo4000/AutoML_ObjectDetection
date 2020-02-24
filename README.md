@@ -1,3 +1,8 @@
+# データセットのダウンロード  
+$ pip install gsutil  
+$ gsutil cp gs://cloud-ml-data/img/openimage/* .  
+サラダ画像とcsvがダウンロードされる  
+
 # 設定  
 参考URL(チュートリアル) : https://cloud.google.com/vision/automl/object-detection/docs/quickstart?hl=ja  
 参考URL(上限値確認) : https://cloud.google.com/vision/automl/object-detection/docs/prepare?hl=ja  
