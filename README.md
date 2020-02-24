@@ -2,6 +2,7 @@
 $ pip install gsutil  
 $ gsutil cp gs://cloud-ml-data/img/openimage/* .  
 サラダ画像とcsvがダウンロードされる  
+imageセットだけをimgフォルダ配下へ配置する　(csvはgithubへ用意しているものを使用)  
 
 # 設定  
 参考URL(チュートリアル) : https://cloud.google.com/vision/automl/object-detection/docs/quickstart?hl=ja  
