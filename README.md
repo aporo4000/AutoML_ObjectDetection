@@ -134,7 +134,7 @@ imageセットだけをimgフォルダ配下へ配置する　(csvはgithubへ�
     - csvのTRAINに対して最低TRAIN:TEST:VALIDATE -> 8:1:1用意されているか？  
     - 各座標は x、y 座標値で指定します。この各座標は 0～1 の範囲の浮動小数点数です。0 は最小の x 値または y 値、1 は最大の x 値または y 値を表します。
     - たとえば、（0.1,0.1）は左上の角(xmin,ymin)、（0.3,0.3）は右下の角(xmax,ymax)を表します。
-    - 例）TRAIN,gs://folder/image1.png,car,0.1,0.1,,,0.3,0.3,,。
+    - 例）TRAIN,gs://folder/image1.png,car,0.1,0.1,,,0.3,0.3,,
 
 4. 学習進捗確認(ここは必ず実行してファイルを出力)  
    $ bash detect_progress_train.sh sample_DT  
